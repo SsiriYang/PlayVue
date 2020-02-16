@@ -1,0 +1,139 @@
+a{
+	text-decoration: none;
+	
+}
+blockquote{
+	border:0 ;
+	background-color: rgb(233,246,254,0.4);
+	border-radius: 4px;
+	margin: 10px;
+	
+}
+
+.notice {
+	width: 80%;
+	height: 528px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.cfcf{
+	background: url(../images/notice.jpg) no-repeat ;
+	background-size: cover;
+}
+/*兼容IE*/
+
+.notice {
+
+	/*箭头颜色*/
+}
+
+.notice::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(233,246,254,0.4);
+	background-color: #21DEEF;
+	color: white;
+}
+
+
+/* 滚动条的滑轨背景颜色 */
+
+.notice::-webkit-scrollbar {
+	width: 6px;
+	background-color: #ccc;
+}
+
+.notice::-webkit-scrollbar-thumb {
+	background-color: #20a774;
+}
+.system-notice{
+	height: 42px;
+	line-height: 42px;
+	position: fixed;
+	background-color: #FFFFFF;
+    z-index: 10;
+    border:0 ;;
+	border-radius: 4px;
+	margin: 10px;
+	width: 849px;
+	min-width: 400px;
+}
+.system-notice1{
+	height: 42px;
+	line-height: 42px;
+	position: fixed;
+	background-color: #FFFFFF;
+    z-index: 10;
+    border:0 ;;
+	border-radius: 4px;
+	margin: 10px;
+	 width: 870px;;
+	margin-left: -1px;
+	min-width: 400px;
+}
+.content{
+	text-indent:2em;
+    margin-top: 7px;
+}
+.containers {
+    width: 1124px;;
+}
+.well{
+	background-color: rgb(233,246,254,0.4);
+	border-radius: 4px;
+	height: 180px;
+}
+.head-sculpture{
+	width: 50px;
+	height: 50px;
+	border-radius:50% ;
+}
+.media-heading a{
+	line-height: 15px;
+	color: #21DEEF;
+}
+.media-body{
+	padding-top: 20px;
+}
+.media-body a{
+	text-decoration: none;
+}
+.qwqw{
+	font-family: "arial narrow";
+	text-indent:2em;
+	font-size: 20px;
+    overflow:hidden;
+    color: #5E5E5E;
+    width:95%;
+    text-overflow:ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-line-clamp:3;
+    overflow: hidden;
+}
+.media{
+	padding-left: 4em;
+	position: relative;
+}
+	
+	
+.boxclose{
+    font-size: 20px;
+    position: absolute;
+    top: 4px;
+    right: 11px;
+    color: gray;
+    cursor: default;
+}
+.medias{
+	cursor: pointer;
+}
+
+.notice-content{
+	width: 100%;
+	height: 100%;
+	background: url(../images/notice.jpg);
+}
+.contenti-in{
+	text-indent: 2em;
+}

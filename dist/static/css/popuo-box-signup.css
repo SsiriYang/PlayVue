@@ -1,0 +1,257 @@
+/* Styles for dialog window */
+#small-dialog,#small-dialog3{
+	background: #FFF;
+    padding: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: 40px auto;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 8px 2px #CACACA;
+    -webkit-box-shadow: 0 0 8px 2px #CACACA;
+    -ms-box-shadow: 0 0 8px 2px #CACACA;
+    -o-box-shadow: 0 0 8px 2px #CACACA;
+    -moz-box-shadow: 0 0 8px 2px #CACACA;
+}
+a.play-icon.popup-with-zoom-anim img:hover {
+	opacity: 0.5;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.rows{
+	  margin-top: -24px;
+	  height: 100%;
+}
+/**
+
+/**
+ * Fade-zoom animation for first dialog
+ */
+
+
+/**
+/* Magnific Popup CSS */
+
+
+/*.mfp-hide {
+  display: none !important; }*/
+button.mfp-close,
+button.mfp-arrow {
+    overflow: visible;
+    cursor: pointer;
+    border: 0;
+    -webkit-appearance: none;
+    display: block;
+    padding: 0;
+    z-index: 1046;
+ }
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+.signup {
+    position: relative;
+    padding: 2em 0 0 0;
+    float: !important;
+}
+.signup input[type="text"]{
+	width: 44.5%;
+	padding: 5px;
+	margin: 10px 0;
+	font-size: 14px;
+	outline: none;
+	background: #EBEBEB;
+	border: solid 1px #222;
+}
+.note{
+	position: relative;
+}
+.signup input{
+	border-radius: 4px;
+}
+.signup input.email[type="text"],.signup input[type="password"]{ 
+  width: 90%;
+  padding: 10px;
+  background: #FFF;
+  margin: 10px 0;
+  font-size: 14px;
+  outline: none;
+  color: #817F7F;
+  border: solid 1px #817F7F;
+}
+.login input[type="submit"],.signup input[type="submit"]{
+    border: 0px;
+    padding: .5em 2em;
+    background: #21DEEF;
+    margin: 1em 0 0 0;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    position: relative;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+}
+.login input[type="submit"]:hover,.signup input[type="submit"]:hover{
+  background: #C7C7C7;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.note-button{
+	width: 130px;
+    height: 36px;
+    position: absolute;
+    right: 29px;
+    top: 11px;
+    padding: 0 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.el-button{
+    color: #fff;
+    background-color: #21DEEF;
+    border-color: #21DEEF;
+    display: inline-block;
+    line-height: 1;
+    cursor: pointer;
+    border: 1px solid #dcdfe6;
+    -webkit-appearance: none;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    -webkit-transition: .1s;
+    transition: .1s;
+    font-weight: 500;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.el-button:hover{
+	background: #C7C7C7;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.signup input[type="submit"]{
+    border: 0px;
+    padding: .5em 2em;
+    background: #21DEEF;
+    margin: 1em 0 0 0;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    position: relative;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+}
+.signup input[type="submit"]:hover{
+  background: #C7C7C7;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.tologin,.forget-pass{
+    line-height: 40px;
+    text-align: right;
+    width: 90%;
+    height: 40px;
+    margin: 0 auto;
+}
+.tologin a,.forget-pass a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #21DEEF;
+}
+.login h3,.signup h3{
+	margin: 0;
+	color: #3498DB;
+	text-align: left;
+	position: absolute;
+	top: 2px;
+	left: 54px;
+}
+.login h3, .signup h4  a{
+	text-align: right;
+	position: absolute;
+	margin: 0;
+	top: 10px;
+	right: 58px;
+}
+.login input[type="text"],.login input[type="password"]{
+	width:90%;
+	padding:5px;
+	margin:3px 0;x
+	border: 1px solid #a63d56;
+	outline: none !important;
+}
+@media all and (max-width:768px){
+	#small-dialog3{
+		 max-width: 80%;
+	}
+}
+@media all and (max-width:640px){
+	.signup {
+		position: relative;
+		padding: 2em 0 0 0em;
+		float: none;
+		width: 100%;
+		border-left: none;
+		text-align: center;
+	}
+}
+@media all and (max-width:480px){
+	.signup {
+	  padding: 0;
+	  float: right !important;
+	  width: 100%;
+	  border-left: none;
+	  text-align: left;
+	}
+}
+@media all and (max-width:320px){
+	#small-dialog3{
+		max-width: 95%;
+	}
+	.signup input[type="text"] {
+		width: 90%;
+	}
+	.signup h3 {
+		top: 7px;
+		left: 25px;
+		font-size: 18px;
+	}
+	.signup h4 a {
+		top: 7px;
+		right: 19px;
+		font-size: 18px;
+	}
+	.signup {
+		  padding:0 !important;
+	}
+	.signup input.email[type="text"], .signup input[type="password"] {
+		width: 100% !important;
+	}
+	.signup input.email[type="text"], .signup input[type="password"] {
+		padding: 6px;
+		font-size:13px;
+	}
+}
