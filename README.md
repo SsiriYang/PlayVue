@@ -1,12 +1,10 @@
-# playVue
+# 前后端分离的视频播放网站-前端部分
 
-> play的前端部分
->
-> A Vue.js project
+后端部分传送门：https://github.com/SsiriYang/Play
 
-## Build Setup
+欢迎各位 Star!
 
-``` bash
+```
 # install dependencies
 npm install
 
@@ -19,5 +17,4 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
 
