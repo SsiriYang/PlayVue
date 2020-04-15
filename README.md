@@ -1,3 +1,6 @@
+仿B站开发，页面并不相似
+
+
 # 前后端分离的视频播放网站-前端部分
 
 后端部分传送门：https://github.com/SsiriYang/Play
